@@ -1,0 +1,117 @@
+.start{
+    &__footer{
+        &{
+            margin-top: 41px;
+        }
+        &-suptext{
+            margin-top: 95px;
+            color: $Snow;
+            position: relative;
+            &::after{
+                content: url();
+                position: absolute;
+                width: 332px;
+                height: 332px;
+                border: 15px solid #6a7585a8;
+                border-radius: 50%;
+                z-index: -1;
+                margin-left: -130px;
+                margin-top: -5px;
+                transform: matrix(-1, 0, 0, 1, 0, 0);
+            }
+            &::before{
+                content: url();
+                position: absolute;
+                width: 332px;
+                height: 332px;
+                border: 15px solid #6a7585a8;
+                border-radius: 50%;
+                z-index: -1;
+                transform: matrix(-1, 0, 0, 1, 0, 0);
+                margin-top: 49px;
+                margin-left: 670px;
+            }
+        }
+        .background-color{
+            height: 300px;
+            position: absolute;
+            background-color: $dark_Navy;
+            width: 1580px;
+            z-index: -1;
+            margin-left: -90px;
+            &::after{
+                content: url();
+                position: absolute;
+                width: 347px;
+                height: 347px;
+                border-radius: 50%;
+                z-index: -1;
+                background-color: #6a7585a8;
+                transform: matrix(-1, 0, 0, 1, 0, 0);
+                margin-top: 189px;
+                margin-left: 1152px;
+            }
+        }
+        &-right{
+            display: flex;
+            align-items: center;
+            margin-top: 85px;
+        }
+        .app_store{
+            &-btn{
+                display: flex;
+                align-items: center;
+                background-color: $light_Grey;
+                width: 159px;
+                height: 56px;
+                border-radius: 4px;
+            }
+            &-left{
+                margin-left: 13px;
+            }
+            &-right{
+                margin-left: 17px;
+                margin-top: -10px;
+            }
+            &-top-text{
+                margin-top: 33px;
+                color: $dark_Navy;
+                font-family: Space Mono;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: -0.45px;
+                text-align: left;
+            }
+            &-bottom-text{
+                margin-top: -9px;
+                color: $dark_Navy;
+                font-family: Space Mono;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: -0.89px;
+                text-align: left;
+            }
+        }
+        &__container{
+            display: flex;
+            align-items: center;
+        }
+        &-right{
+            margin-left: 336px;
+        }
+        .play_market{
+            &-btn{
+                margin-left: 18px;
+                width: 182px;
+                height: 56px;
+                background-color: $light_Grey;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+            }
+            
+        }
+    }
+}

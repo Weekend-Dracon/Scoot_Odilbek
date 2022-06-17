@@ -1,0 +1,35 @@
+.hero{
+    margin-top: 810px;
+    position: relative;
+    &__list{
+        display: flex;
+        align-items: center;
+        
+    }
+    &__item{
+        &::before{
+        content: url();
+        border: 8px solid $light_Grey;
+        width: 290px;
+        height: 0;
+        background-color: $light_Grey;
+        position: absolute;
+        margin-top: 48px;
+        z-index: -1;
+        margin-left: -290px;
+        display: block;
+    }
+        +.hero__item{
+            margin-left: 40px;
+        }
+    }
+    &__text-left-tablet{
+        display: none;
+    }
+    &__text-center-tablet{
+        display: none;
+    }
+    &__text-right-tablet{
+        display: none;
+    }
+}

@@ -1,0 +1,259 @@
+@media only screen and (max-width:768px) {
+    .main{
+        &::before{
+            display: none;
+        }
+        &__container{
+            @media
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (   min--moz-device-pixel-ratio: 2),
+        only screen and (     -o-min-device-pixel-ratio: 2/1),
+        only screen and (        min-device-pixel-ratio: 2),
+        only screen and (                min-resolution: 192dpi),
+        only screen and (                min-resolution: 2dppx) {
+        
+        &::before {
+            background-image: url(../images/Bitmap4.svg);
+            background-repeat: no-repeat;
+            width: 768px;
+            height: 650px;
+            position: absolute;
+            content: url();
+            z-index: -2;
+            margin-left: -21px;
+        }
+        }
+        }
+        &__background{
+            width: 768px;
+            height: 650px;
+            z-index: -1;
+            margin-left: -21px;
+        }
+        &__suptext{
+            text-align: center;
+            margin-left: 127px;
+            margin-top: 127px;
+        }
+        &__text{
+            display: none;
+            &::before{
+                display: none;
+            }
+        }
+        &__text-tablet{
+            display: block;
+            text-align: center;
+            margin-left: 87px;
+            width: 573px;
+            height: 75px;
+            color: $Snow;
+            margin-top: 273px;
+            &::after{
+                content: url(../images/Group8Copy.svg);
+                position: absolute;
+                margin-top: 149px;
+                margin-left: -680px;
+            }
+        }
+        &__btn{
+            margin-left: 278px;
+            margin-top: 380px;
+        }
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .main{
+        &::before{
+            display: none;
+        }
+        &__container{
+            @media
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (   min--moz-device-pixel-ratio: 2),
+        only screen and (     -o-min-device-pixel-ratio: 2/1),
+        only screen and (        min-device-pixel-ratio: 2),
+        only screen and (                min-resolution: 192dpi),
+        only screen and (                min-resolution: 2dppx) {
+        
+        &::before {
+            background-image: url(../images/Bitmap4.svg);
+            background-repeat: no-repeat;
+            width: 768px;
+            height: 650px;
+            position: absolute;
+            content: url();
+            z-index: -2;
+            margin-left: -21px;
+        }
+        }
+        }
+        &__background{
+            width: 768px;
+            height: 650px;
+            z-index: -1;
+            margin-left: -21px;
+        }
+        &__suptext{
+            text-align: center;
+            margin-left: 127px;
+            margin-top: 127px;
+        }
+        &__text{
+            display: none;
+            &::before{
+                display: none;
+            }
+        }
+        &__text-tablet{
+            display: block;
+            text-align: center;
+            margin-left: 87px;
+            width: 573px;
+            height: 75px;
+            color: $Snow;
+            margin-top: 273px;
+            &::after{
+                content: url(../images/Group8Copy.svg);
+                position: absolute;
+                margin-top: 149px;
+                margin-left: -680px;
+            }
+        }
+        &__btn{
+            margin-left: 278px;
+            margin-top: 380px;
+        }
+    }
+}
+
+@media only screen and (max-width:912px) {
+    .main{
+        &::before{
+            display: none;
+        }
+        &__container{
+            @media
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (   min--moz-device-pixel-ratio: 2),
+        only screen and (     -o-min-device-pixel-ratio: 2/1),
+        only screen and (        min-device-pixel-ratio: 2),
+        only screen and (                min-resolution: 192dpi),
+        only screen and (                min-resolution: 2dppx) {
+        
+        &::before {
+            background-image: url(../images/Bitmap4.svg);
+            background-repeat: no-repeat;
+            width: 768px;
+            height: 650px;
+            position: absolute;
+            content: url();
+            z-index: -2;
+            margin-left: -21px;
+        }
+        }
+        }
+        &__background{
+            width: 768px;
+            height: 650px;
+            z-index: -1;
+            margin-left: -21px;
+        }
+        &__suptext{
+            text-align: center;
+            margin-left: 127px;
+            margin-top: 127px;
+        }
+        &__text{
+            display: none;
+            &::before{
+                display: none;
+            }
+        }
+        &__text-tablet{
+            display: block;
+            text-align: center;
+            margin-left: 87px;
+            width: 573px;
+            height: 75px;
+            color: $Snow;
+            margin-top: 273px;
+            &::after{
+                content: url(../images/Group8Copy.svg);
+                position: absolute;
+                margin-top: 149px;
+                margin-left: -680px;
+            }
+        }
+        &__btn{
+            margin-left: 278px;
+            margin-top: 380px;
+        }
+    }
+}
+
+@media only screen and (max-width:390px) {
+    .main{
+        &::before{
+            display: none;
+        }
+        &__container{
+            @media
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (   min--moz-device-pixel-ratio: 2),
+        only screen and (     -o-min-device-pixel-ratio: 2/1),
+        only screen and (        min-device-pixel-ratio: 2),
+        only screen and (                min-resolution: 192dpi),
+        only screen and (                min-resolution: 2dppx) {
+        
+        &::before {
+            background-image: url(../images/Bitmap4.svg);
+            background-repeat: no-repeat;
+            width: 768px;
+            height: 650px;
+            position: absolute;
+            content: url();
+            z-index: -2;
+            margin-left: -21px;
+        }
+        }
+        }
+        &__background{
+            width: 768px;
+            height: 650px;
+            z-index: -1;
+            margin-left: -21px;
+        }
+        &__suptext{
+            text-align: center;
+            margin-left: 127px;
+            margin-top: 127px;
+        }
+        &__text{
+            display: none;
+            &::before{
+                display: none;
+            }
+        }
+        &__text-tablet{
+            display: block;
+            text-align: center;
+            margin-left: 87px;
+            width: 573px;
+            height: 75px;
+            color: $Snow;
+            margin-top: 273px;
+            &::after{
+                content: url(../images/Group8Copy.svg);
+                position: absolute;
+                margin-top: 149px;
+                margin-left: -680px;
+            }
+        }
+        &__btn{
+            margin-left: 278px;
+            margin-top: 380px;
+        }
+    }
+}

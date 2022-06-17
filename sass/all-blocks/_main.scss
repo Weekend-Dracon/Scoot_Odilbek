@@ -1,0 +1,69 @@
+.main{
+    position: relative;
+    &::before{
+        @extend .container;
+        content: url(../images/Bitmap2.svg);
+        height: 650px;
+        width: 1440px;
+        display: block;
+        position: absolute;
+        margin-left: -20px;
+        z-index: -2;
+        margin:  auto 20;
+    }
+    &__background{
+        background-color:  rgba(47, 59, 89, 0.772);
+        width: 1440px;
+        height: 650px;
+        position: absolute;
+        margin-left: -90px;
+        z-index: -1;
+    }
+    &__suptext{
+        margin-top: 153px;
+        position: absolute;
+        color: $Snow;
+    }
+    &__text{
+        margin-top: 305px;
+        position: absolute;
+        margin-left: 100px;
+        color: $Snow;
+        &::before{
+            content: url();
+            position: absolute;
+            border: 8px solid $yellow;
+            width: 215px;
+            height: 0px;
+            margin-left: -310px;
+            margin-top: 48px;
+            background-color: $yellow;
+        }
+        &::after{
+            content: url(../images/Group8Copy.svg);
+            position: absolute;
+            margin-left: 280px;
+            margin-top: -27px;
+        }
+    }
+    &__text-tablet{
+        position: absolute;
+        display: none;
+    }
+    &__btn{
+        margin-top: 445px;
+        position: absolute;
+        margin-left: 140px;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+}

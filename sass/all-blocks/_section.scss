@@ -1,0 +1,105 @@
+.section{
+    margin-top: 200px;
+    &__item{
+        display: flex;
+        align-items: center;
+        +.section__item{
+            margin-top: 139px;
+            margin-bottom: 160px;
+        }
+    }
+    &__image1{
+        background-image: url(../images/Group33.svg);
+        width: 445px;
+        height: 445px;
+        margin-left: 220px;
+        &::after{
+            content: url(../images/Group32.svg);
+            position: absolute;
+            margin-top: 296px;
+            margin-left: -130px;
+        }
+        &::before{
+            content: url();
+            position: absolute;
+            width: 445px;
+            height: 445px;
+            background-color: $light_Grey;
+            border-radius: 50%;
+            margin-left: 510px;
+            z-index: -1;
+        }
+    }
+    &__suptext1{
+        margin-top: 24px;
+    }
+    &__text-tablet1{
+        display: none;
+    }
+    &__btn-place1{
+        margin-top: 40px;
+    }
+    &__image2{
+        background-image: url(../images/BitmapCopy.svg);
+        width: 445px;
+        height: 445px;
+        position: relative;
+        &::after{
+            content: url(../images/Group13Copy.svg);
+            position: absolute;
+            margin-left: -550px;
+        }
+        &::before{
+            content: url();
+            background-color: $light_Grey;
+            width: 445px;
+            height: 445px;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: -509px;
+        }
+    }
+    &__right2{
+        margin-left: 220px;
+    }
+    &__text2{
+        margin-top: 24px;
+    }
+    &__text-tablet2{
+        display: none;
+    }
+    &__btn-place2{
+        margin-top: 40px;
+    }
+    &__image3{
+        background-image: url(../images/Bitmap3.svg);
+        width: 445px;
+        height: 445px;
+        border-radius: 50%;
+        z-index: 1;
+        background-size: cover;
+        margin-left: 220px;
+        position: relative;
+        &::after{
+            content: url(../images/Group17.svg);
+            position: absolute;
+            margin-top: 78px;
+            margin-left: 248px;
+        }
+        &::before{
+            content: url();
+            width: 445px;
+            height: 445px;
+            position: absolute;
+            background-color: $light_Grey;
+            border-radius: 50%;
+            margin-left: 505px;
+        }
+    }
+    &__text-tablet3{
+        display: none;
+    }
+    &__btn-place3{
+        margin-top: 40px;
+    }
+}
